@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer>
+  <entry>
+  	<name>
+      Bob
+  	</name>
+  	<street>
+  	  11 Adams
+  	</street>
+  	<city>
+  	  Fairfield
+  	</city>
+  	<zip>
+  	  52556
+  	</zip>
+  </entry>
+  <entry>
+  	<name>
+      Laurence Lebihans
+  	</name>
+  	<street>
+  	  12, rue des Bouchers
+  	</street>
+  	<city>
+  	  Marseille
+  	</city>
+  	<zip>
+  	  13008
+  	</zip>
+  </entry>
+  <entry>
+  	<name>
+      Andy
+  	</name>
+  	<street>
+  	  1000 Channing Ave
+  	</street>
+  	<city>
+  	  Palo Alto
+  	</city>
+  	<zip>
+  	  94301
+  	</zip>
+  </entry>
+  <entry>
+  	<name>
+      Zeke
+  	</name>
+  	<street>
+  	  Customer
+  	</street>
+  	<city>
+  	  Chicago
+  	</city>
+  	<zip>
+  	  57532
+  	</zip>
+  </entry>
+  <entry>
+  	<name>
+      Blauer Delikatessen
+  	</name>
+  	<street>
+  	  Forsterstr. 57
+  	</street>
+  	<city>
+  	  Mannheim
+  	</city>
+  	<zip>
+  	  68306
+  	</zip>
+  </entry>
+</customer>
