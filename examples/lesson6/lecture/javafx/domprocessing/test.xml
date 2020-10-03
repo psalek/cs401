@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <entry>
+      <id>
+         11200
+      </id>
+      <phonenum>
+         777-8888
+      </phonenum>
+      <email>
+         tom_jones@yahoo.com
+      </email>
+   </entry>
+   <entry>
+      <id>
+         00030
+      </id>
+      <phonenum>
+         472-0329
+      </phonenum>
+      <email>
+         kgremer@lisco.com
+      </email>
+   </entry>
+   <entry>
+      <id>
+         99231
+      </id>
+      <phonenum>
+         608-153-3231
+      </phonenum>
+      <email>
+         tbarto@math.boisestate.edu
+      </email>
+   </entry>
+</root>

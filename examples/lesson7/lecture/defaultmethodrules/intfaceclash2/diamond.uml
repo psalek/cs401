@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_p2NEACMpEeW4SeoqPm4kbg" name="NewModel">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_45eO4CMpEeW4SeoqPm4kbg" name="Top">
+    <ownedOperation xmi:id="_id6yYCMqEeW4SeoqPm4kbg" name="myMethod">
+      <ownedParameter xmi:id="_mqqfoCMqEeW4SeoqPm4kbg" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_-bBL4CMpEeW4SeoqPm4kbg" name="SupInt2">
+    <generalization xmi:id="_ZNR4ACMrEeW4SeoqPm4kbg" general="_45eO4CMpEeW4SeoqPm4kbg"/>
+    <ownedOperation xmi:id="_D96-UCMrEeW4SeoqPm4kbg" name="myMethod">
+      <ownedParameter xmi:id="_D96-USMrEeW4SeoqPm4kbg" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_A9wOYCMqEeW4SeoqPm4kbg" name="SupInt1">
+    <generalization xmi:id="_Vs46cCMrEeW4SeoqPm4kbg" general="_45eO4CMpEeW4SeoqPm4kbg"/>
+    <ownedOperation xmi:id="_54zvgCMqEeW4SeoqPm4kbg" name="myMethod">
+      <eAnnotations xmi:id="_GqZLoCMrEeW4SeoqPm4kbg"/>
+      <ownedParameter xmi:id="_7W-9sCMqEeW4SeoqPm4kbg" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NpFcECMrEeW4SeoqPm4kbg" name="Implementer">
+    <interfaceRealization xmi:id="_cWFcACMrEeW4SeoqPm4kbg" client="_NpFcECMrEeW4SeoqPm4kbg" supplier="_A9wOYCMqEeW4SeoqPm4kbg" contract="_A9wOYCMqEeW4SeoqPm4kbg"/>
+    <interfaceRealization xmi:id="_dI4K4CMrEeW4SeoqPm4kbg" client="_NpFcECMrEeW4SeoqPm4kbg" supplier="_-bBL4CMpEeW4SeoqPm4kbg" contract="_-bBL4CMpEeW4SeoqPm4kbg"/>
+    <ownedOperation xmi:id="_Pp5dQCMrEeW4SeoqPm4kbg" name="myMethod">
+      <ownedParameter xmi:id="_Pp5dQSMrEeW4SeoqPm4kbg" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

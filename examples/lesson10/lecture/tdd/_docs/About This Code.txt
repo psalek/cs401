@@ -1,0 +1,9 @@
+This code is intended to demonstrate Test-Driven Development process
+in a simple case.
+
+We wish to implement a method addressListToStringArrList
+in the class util.Util. We know the method's signature
+and return type. Even before coding the method, we
+can devise a test for it, which we do in test_util.TestUtil.
+Then we can write our code, and test.
+

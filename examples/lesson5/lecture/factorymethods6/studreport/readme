@@ -1,0 +1,12 @@
+Constructors in this package
+are package level -- no access from
+outside this package.
+
+The only way to create an instance of StudentAndReportImpl
+is through the Factory class's factory method.
+Prevents corruption of the 1-1 relationship between
+Student and GradeReport
+
+All classes in this package are immutable (relative to
+the package) and the only publicly accessible 
+instance-creator is StudentGradeReportFactory

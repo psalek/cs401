@@ -1,0 +1,5 @@
+We want the singleton OneOfAKind to inherit from House, but
+multiple inheritance is not allowed.
+
+We can use Java 8 default methods to accomplish the same thing --
+we just need to replace House with a java 8 interface.
